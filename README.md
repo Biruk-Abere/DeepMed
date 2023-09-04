@@ -25,7 +25,7 @@ Welcome to our AI-driven healthcare project! We've developed a web-based system 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/yourproject.git`
+1. Clone the repository: `[git clone https://github.com/Biruk-Abere/DeepMed.git]`
 2. Install dependencies: `pip install -r requirements.txt`
 
 ## Usage
@@ -35,4 +35,4 @@ Welcome to our AI-driven healthcare project! We've developed a web-based system 
 
 ## Get Involved
 
-We welcome contributions! If you're interested, please [contact us](mailto
+We welcome contributions! If you're interested, please [contact us](mailto birukabere4@gmail.com)
