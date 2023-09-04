@@ -1,0 +1,3 @@
+# AI-POWERED HEALTH CARE
+
+Recent years have witnessed remarkable progress in medical science, driven by the integration of artificial intelligence (AI) and deep learning techniques. In this project, the University of Gondar College of Medical Science aims to develop an all-encompassing web-based framework that combines computer vision, natural language processing (NLP), and structured machine learning to enhance medical diagnosis and treatment. By delivering accurate diagnoses and aiding decision-making, this system can save patients valuable time and reduce costs associated with physical hospital visits, while also alleviating the workload of medical professionals.

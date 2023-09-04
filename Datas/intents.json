@@ -1,0 +1,238 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello, how can I help you?",
+                "Hi there, what can I do for you?",
+                "Hey, what can I assist you with?",
+                "Greetings, how may I assist you?"
+            ]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye"],
+          "responses": [
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+          ]
+       },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+        {
+            "tag": "symptoms",
+            "patterns": [
+                "What are the symptoms of COVID-19?",
+                "What are the signs of heart disease?",
+                "What are the symptoms of diabetes?",
+                "How do I know if I have asthma?",
+                "What are the symptoms of a stroke?",
+                "What are the symptoms of arthritis?",
+                "What are the symptoms of depression?",
+                "What are the symptoms of anxiety?",
+                "What are the symptoms of Alzheimer's?"
+            ],
+            "responses": [
+                "Some common symptoms of COVID-19 include fever, cough, and shortness of breath.",
+                "Some signs of heart disease include chest pain, shortness of breath, and fatigue.",
+                "Some symptoms of diabetes include frequent urination, increased thirst, and fatigue.",
+                "If you experience wheezing, coughing, or shortness of breath, you may have asthma. It's best to see a doctor for a proper diagnosis.",
+                "Some common symptoms of a stroke include sudden numbness, confusion, and difficulty speaking or understanding speech.",
+                "The symptoms of arthritis can include pain, stiffness, and swelling in the joints.",
+                "Some common symptoms of depression include feelings of sadness or hopelessness, loss of interest in activities, and changes in appetite or sleep patterns.",
+                "Some common symptoms of anxiety include excessive worry, restlessness, and physical symptoms like sweating or trembling.",
+                "The symptoms of Alzheimer's disease can include memory loss, confusion, and difficulty completing familiar tasks."
+            ]
+        },
+        {
+            "tag": "treatment",
+            "patterns": [
+                "How is high blood pressure treated?",
+                "What is the treatment for cancer?",
+                "What are some treatments for depression?",
+                "How is diabetes managed?",
+                "What is the treatment for arthritis?",
+                "What are some treatments for anxiety?",
+                "How is Alzheimer's treated?",
+                "What is the treatment for migraines?",
+                "What is the treatment for back pain?"
+            ],
+            "responses": [
+                "High blood pressure can be managed through lifestyle changes and medication.",
+                "The treatment for cancer depends on the type and stage of the cancer. It may include surgery, chemotherapy, and/or radiation.",
+                "There are several treatments for depression, including therapy, medication, and lifestyle changes.",
+                "Diabetes can be managed through a combination of medication, diet, and exercise.",
+                "The treatment for arthritis can include medication, physical therapy, and surgery in severe cases.",
+                "There are several treatments for anxiety, including therapy, medication, and relaxation techniques.",
+                "The treatment for Alzheimer's disease is focused on managing symptoms and may include medication and supportive care.",
+                "The treatment for migraines may include medication, lifestyle changes, and avoiding triggers.",
+                "The treatment for back pain may include medication, physical therapy, and lifestyle changes."
+            ]
+        },
+        {
+            "tag": "risk_factors",
+            "patterns": [
+                "What are the risk factors for breast cancer?",
+                "What are the risk factors for lung cancer?",
+                "What are the risk factors for diabetes?",
+                "What are the risk factors for heart disease?",
+                "What are the risk factors for stroke?",
+                "What are the risk factors for osteoporosis?",
+                "What are the risk factors for Alzheimer's?",
+                "What are the risk factors for depression?",
+                "What are the risk factors for anxiety?"
+            ],
+            "responses": [
+                "Some common risk factors for breast cancer include age, family history, and hormonal factors.",
+                "The risk factors for lung cancer include smoking, exposure to radon, and exposure to other harmful substances.",
+                "The risk factors for diabetes include being overweight, having a sedentary lifestyle, and having a family history of the disease.",
+                "The risk factors for heart disease include smoking, high blood pressure, and high cholesterol.",
+                "The risk factors for stroke include high blood pressure, smoking, and diabetes.",
+                "The risk factors for osteoporosis include age, gender, and family history.",
+                "The risk factors for Alzheimer's disease include age, family history, and genetics.",
+                "The risk factors for depression include a history of depression in the family, traumatic life events, and certain medical conditions.",
+                "The risk factors for anxiety include a history of anxiety in the family, traumatic life events, and certain medical conditions."
+            ]
+        },
+        {
+            "tag": "medications",
+            "patterns": [
+                "What are the side effects of aspirin?",
+                "What are the side effects of cholesterol-lowering drugs?",
+                "What are the side effects of blood thinners?",
+                "What are the side effects of antidepressants?",
+                "What are the side effects of anxiety medication?",
+                "What are the side effects of insulin?",
+                "What are the side effects of painkillers?",
+                "What are the side effects of sleep aids?",
+                "What are the side effects of allergy medication?"
+            ],
+            "responses": [
+                "Some common side effects of aspirin include stomach upset, heartburn, and increased risk of bleeding.",
+                "The side effects of cholesterol-lowering drugs may include muscle pain, liver damage, and digestive problems.",
+                "The side effects of blood thinners may include increased risk of bleeding and bruising.",
+                "The side effects of antidepressants can vary depending on the type of medication, but may include weight gain, dry mouth, and sexual dysfunction.",
+                "The side effects of anxiety medication may include drowsiness, dizziness, and dry mouth.",
+                "The side effects of insulin can include low blood sugar, weight gain, and skin reactions at the injection site.",
+                "The side effects of painkillers may include dizziness, drowsiness, and constipation.",
+                "The side effects of sleep aids may include dizziness, drowsiness, and increased risk of falls.",
+                "The side effects of allergy medication may include drowsiness, dry mouth, and headache."
+            ]
+        },
+
+          {
+            "tag": "infectious_diseases",
+            "patterns": [
+                "What are the symptoms of COVID-19?",
+                "How is hepatitis B transmitted?",
+                "What are the common cold symptoms?",
+                "What are the symptoms of HIV?",
+                "How is tuberculosis diagnosed?",
+                "What is meningitis and how is it treated?",
+                "What is malaria and how is it prevented?",
+                "What are the symptoms of Lyme disease?",
+                "How is chickenpox treated?"
+            ],
+            "responses": [
+                "Symptoms of COVID-19 can include fever, cough, and shortness of breath.",
+                "Hepatitis B is transmitted through blood or body fluids.",
+                "Common cold symptoms can include runny nose, sore throat, and cough.",
+                "Symptoms of HIV can include fever, fatigue, and weight loss.",
+                "Tuberculosis is diagnosed through a combination of medical history, physical examination, and laboratory tests.",
+                "Meningitis is an inflammation of the protective membranes covering the brain and spinal cord, and it is treated with antibiotics.",
+                "Malaria can be prevented through the use of antimalarial medication and by avoiding mosquito bites.",
+                "Symptoms of Lyme disease can include a rash, fever, and joint pain.",
+                "Chickenpox is usually treated with antiviral medication and pain relievers."
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "What are the symptoms of bipolar disorder?",
+                "What is schizophrenia and how is it treated?",
+                "How is depression diagnosed?",
+                "What are the symptoms of borderline personality disorder?",
+                "What is post-traumatic stress disorder (PTSD)?",
+                "How is anxiety treated?",
+                "What are the symptoms of attention deficit hyperactivity disorder (ADHD)?",
+                "What is obsessive-compulsive disorder (OCD)?",
+                "How is addiction treated?"
+            ],
+            "responses": [
+                "Symptoms of bipolar disorder can include mood swings, impulsivity, and irritability.",
+                "Schizophrenia is a mental disorder characterized by a breakdown in perception, thoughts, and emotions, and it is treated with a combination of medication and therapy.",
+                "Depression can be diagnosed through a combination of medical history, physical examination, and laboratory tests.",
+                "Symptoms of borderline personality disorder can include mood swings, impulsivity, and unstable relationships.",
+                "Post-traumatic stress disorder is a mental health condition that can develop after experiencing or witnessing a traumatic event, and it is treated with medication and therapy.",
+                "Anxiety can be treated with medication, therapy, or a combination of both.",
+                "Symptoms of ADHD can include difficulty focusing, impulsivity, and hyperactivity.",
+                "OCD is a mental disorder characterized by obsessions and compulsions, and it is treated with medication and therapy.",
+                "Addiction can be treated with medication-assisted therapy, behavioral therapy, or a combination of both."
+            ]
+        },
+        {
+            "tag": "allergies",
+            "patterns": [
+                "What are the common symptoms of a food allergy?",
+                "How are seasonal allergies treated?",
+                "What is anaphylaxis and how is it treated?",
+                "What is a skin allergy?",
+                "How can I prevent allergy symptoms?",
+                "What is a drug allergy?",
+                "What are some common allergy triggers?",
+                "How can I get tested for allergies?",
+                "What is immunotherapy?"
+            ],
+            "responses": [
+                "Common symptoms of a food allergy can include hives, itching, and swelling.",
+                "Seasonal allergies can be treated with over-the-counter antihistamines or prescription medication.",
+                "Anaphylaxis is a severe and potentially life-threatening allergic reaction, and it is treated with an injection of epinephrine.",
+                "A skin allergy can manifest as a rash or hives, and it can be caused by a variety of factors including pollen, pet dander, and certain foods.",
+                "Allergy symptoms can be prevented by avoiding known triggers and taking medication as prescribed by a doctor.",
+                "A drug allergy can manifest as a rash, hives, or swelling, and it can be caused by a variety of medications.",
+                "Common allergy triggers include pollen, dust mites, pet dander, and certain foods.",
+                "Allergies can be diagnosed through skin testing or blood testing.",
+                "Immunotherapy involves regular injections of small amounts of an allergen to desensitize the immune system."
+            ]
+        },
+        {
+            "tag": "cancer",
+            "patterns": [
+                "What are the different types of cancer?",
+                "How is cancer diagnosed?",
+                "What are the common cancer treatments?",
+                "What is chemotherapy?",
+                "What is radiation therapy?",
+                "How can I reduce my risk of cancer?",
+                "What is immunotherapy?",
+                "What are the side effects of cancer treatment?",
+                "How is cancer staged?"
+            ],
+            "responses": [
+                "There are many different types of cancer, including breast cancer, lung cancer, and colon cancer.",
+                "Cancer can be diagnosed through a combination of physical examination, laboratory tests, and imaging studies.",
+                "Common cancer treatments include surgery, chemotherapy, radiation therapy, and immunotherapy.",
+                "Chemotherapy is a cancer treatment that uses drugs to kill cancer cells.",
+                "Radiation therapy is a cancer treatment that uses high-energy radiation to kill cancer cells.",
+                "Lifestyle changes such as quitting smoking and maintaining a healthy diet and exercise routine can help reduce your risk of cancer.",
+                "Immunotherapy is a cancer treatment that uses the body's own immune system to fight cancer.",
+                "Common side effects of cancer treatment can include fatigue, nausea, and hair loss.",
+                "Cancer staging involves determining the extent of the cancer and whether it has spread to other parts of the body."
+            ]
+        }
+ ]
+
+}
