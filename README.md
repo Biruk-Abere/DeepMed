@@ -35,4 +35,4 @@ Welcome to our AI-driven healthcare project! We've developed a web-based system 
 
 ## Get Involved
 
-We welcome contributions! If you're interested, please [contact us](mailto birukabere4@gmail.com)
+We welcome contributions! If you're interested, please [contact us](mailto birukabere4@gmail.com , bezawitt9@gmail.com , etsegenetba@gmail.com)
