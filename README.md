@@ -30,7 +30,7 @@ Welcome to our AI-driven healthcare project! We've developed a web-based system 
 
 ## Usage
 
-1. Run the application: `python app.py`
+1. Run the application: `python index_page.py`
 2. Access the application in your web browser at `http://localhost:8501`
 
 ## Get Involved
